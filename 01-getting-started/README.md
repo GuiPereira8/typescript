@@ -1,4 +1,4 @@
-<h1>Getting Started / Começando</h1>
+<h1>Começando / Getting Started</h1>
 <p>Introdução ao TypeScript, aprendendo os comandos básicos de instalação e de conversão de aquivos TS para JS,
     e também algumas configurações basicas.</p>
 
