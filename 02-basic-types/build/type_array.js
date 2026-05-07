@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let filmes;
+filmes = ["Filme 1", "Filme 2"];
+filmes.push(32);
+console.log(`Meus filmes: ${filmes}`);
+let numeros;
+numeros = [1, 4, 8, 21, 32];
+console.log(numeros);
+numeros.push(50);
+console.log("Lista atualizada: ", numeros);
