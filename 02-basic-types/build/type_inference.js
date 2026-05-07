@@ -1,5 +1,4 @@
 "use strict";
-//Tipagem DINAMICA
 Object.defineProperty(exports, "__esModule", { value: true });
 let curso = "TypeScript";
 let tecnologias = ["C#", "Java", "React JS", "Ruby", 310115];
