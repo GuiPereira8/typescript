@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+let statusAtual = 1;
+let mudaStatus = 0;
+mudaStatus = statusAtual;
+mudaStatus = statusAtual;
+console.log(mudaStatus);
+let query = "hambúrguer";
+let processo = query;
+console.log(`Search TERM: ${processo}`);
