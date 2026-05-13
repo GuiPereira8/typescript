@@ -1,4 +1,6 @@
 //Como deixar um valor por default ou deixar ele opcional
+//Valor opcional: idade?: number,
+//Valor por padrão (default): nome = 'aluno',
 
 //gera um número aleátorio caso a pessoa não informar o nome.
 const numeroAleatorio = Math.floor(Math.random() * 2000) + 1;
