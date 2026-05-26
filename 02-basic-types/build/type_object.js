@@ -6,4 +6,11 @@ novoUsuario = {
     email: "exemplo@gmail.com",
     id: 1,
 };
-console.log(novoUsuario);
+let produto;
+produto = {
+    id: 1,
+    nome: "Notebook",
+    preco: 2500,
+    descricao: "Notebook Gamer",
+};
+console.log(produto);
