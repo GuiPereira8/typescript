@@ -18,10 +18,13 @@ class Admin extends Usuario {
         this.cargo = cargo;
         this.nivel = nivel;
     }
-    mudarCargo() {
-        console.log("Hello World!");
+    mudarCargo(cargo) {
+        console.log(`Mudando o cargo de: ${this.cargo}, para: ${cargo}`);
         console.log(`ID do usuário: ${this.id}`);
+    }
+    acessarAdmin() {
+        this.mudarCargo("Designer");
     }
 }
 const primeiroUsuario = new Admin(9, "Guilherme", "exemplo@1234.com", "Desenvolvedor Full-Stack", 1);
-console.log(primeiroUsuario);
+primeiroUsuario.acessarAdmin();

@@ -43,9 +43,13 @@ class Admin extends Usuario {
     this.nivel = nivel;
   }
 
-  mudarCargo(): void {
-    console.log("Hello World!");
+  protected mudarCargo(cargo: string): void {
+    console.log(`Mudando o cargo de: ${this.cargo}, para: ${cargo}`);
     console.log(`ID do usuário: ${this.id}`);
+  }
+
+  acessarAdmin(): void {
+    this.mudarCargo("Designer");
   }
 }
 
@@ -57,4 +61,4 @@ const primeiroUsuario = new Admin(
   1,
 );
 // primeiroUsuario.id; // ERRO! A propriedade 'id' é protegida e somente é acessível na classe 'Usuario' e em suas subclasses.
-console.log(primeiroUsuario);
+primeiroUsuario.acessarAdmin();
