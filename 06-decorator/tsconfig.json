@@ -43,6 +43,7 @@
     "skipLibCheck": true,
 
     // Experimental Options
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "useDefineForClassFields": false
   }
 }
